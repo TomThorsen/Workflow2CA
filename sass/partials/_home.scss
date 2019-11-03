@@ -1,0 +1,23 @@
+.carousel__inner > .item > img {
+  margin: 0 auto;
+width: 100%;
+}
+.infoBoxHome__header {
+  @include fontToRem(48px);
+  font-weight: bold;
+}
+.smallBoxesHome__header {
+  @include fontToRem(48px);
+}
+.smallBoxesHome__para {
+  padding-bottom: 10px;
+}
+.smallBoxesHome__btn {
+  background-color: $Orange-color;
+  font-weight: bold;
+  border-width: 0px;
+  border-radius: 0px;
+  @include fontToRem(30px);
+  padding: 5px 10px;
+
+}

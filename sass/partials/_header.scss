@@ -1,0 +1,24 @@
+@media only screen and (max-width: 600px) {
+  .navbar__brand {
+    font-size: 18px !important;
+  }
+}
+.navbar {
+  border-width: 0px;
+  border-radius: 0px;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: $White-color;
+  background-color: $Blue-color !important;
+}
+
+.navbar__header {
+  color: $White-color;
+}
+.navbar__brand {
+  @include fontToRem(48px);
+}
+.currentPage {
+  font-weight: bold;
+}

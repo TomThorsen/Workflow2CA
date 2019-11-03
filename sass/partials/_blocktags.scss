@@ -1,0 +1,12 @@
+body {
+  font-family: $open-sans;
+}
+h1 {
+  @include fontToRem(36px);
+}
+a {
+  color: $White-color !important;
+}
+a:hover {
+  color: $Black-color !important;
+}

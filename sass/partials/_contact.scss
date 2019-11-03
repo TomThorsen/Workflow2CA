@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+  .contactContainer {
+    width: 100% !important;
+  }
+}
+
+.contactContainer {
+  width: 600px;
+  padding-bottom: 20px;
+}
+label {
+  font-weight: normal;
+}
+.contactContainer__btn {
+  @extend .smallBoxesHome__btn;
+}
+.contactContainer--spacer {
+  padding-bottom: 10px;
+}
+.footer--spacer {
+  margin-top: 356px;
+}
+

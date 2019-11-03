@@ -1,0 +1,22 @@
+.smallBoxesPackages__header {
+  @include fontToRem(48px);
+}
+.smallBoxesPackages__btn {
+  @extend .smallBoxesHome__btn;
+}
+.smallBoxesPackages__para {
+  padding-bottom: 10px;
+}
+.smallBoxesPackages {
+  border-width: 2px;
+  border-style: solid;
+  border-color: $Orange-color;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.smallBoxesPackages:hover {
+  background-color: $OffWhite-color;
+  cursor: pointer;
+}
